@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Engineering Awareness</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div id="popup" class="popup">
+        <h1>WARNING</h1>
+        <p>You have clicked on a malicious link!</p>
+        <p>Your browser history has been downloaded!</p>
+        <button onclick="hidePopup()">Just Kidding: Continue to Training</button>
+    </div>
+
+    <!-- Wrap main content to apply blur -->
+    <div id="content">
+        <header>
+            <h1>Social Engineering Awareness</h1>
+            <p>Understanding the dangers of malicious links and QR codes</p>
+        </header>
+
+        <main>
+            <section>
+                <h2>What is Social Engineering?</h2>
+                <p>
+                    Social engineering is a manipulation tactic that attackers use to trick individuals into revealing confidential information or performing specific actions.
+                </p>
+            </section>
+
+            <section>
+                <h2>How Hackers Use Links and QR Codes</h2>
+                <p>
+                    One of the most common methods attackers use is through malicious links or QR codes. These methods involve tricking users into visiting a website or executing commands that can steal personal information or compromise devices.
+                </p>
+
+                <h3>Malicious Links</h3>
+                <ul>
+                    <li>Hackers can send malicious links through emails, social media, or messages.</li>
+                    <li>These links might appear legitimate, but they often redirect users to fake websites designed to steal login credentials or install malware.</li>
+                    <li>Always double-check the link’s actual URL before clicking by hovering over it, especially in suspicious emails.</li>
+                </ul>
+
+                <h3>QR Codes</h3>
+                <ul>
+                    <li>QR codes are increasingly used to direct users to websites, but they can easily be tampered with or replaced by malicious codes.</li>
+                    <li>Hackers may use QR codes to execute commands on your device without your knowledge or take you to phishing websites.</li>
+                    <li>Always verify the source of a QR code before scanning, especially in untrusted environments.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>How to Protect Yourself</h2>
+                <p>
+                    Awareness is the key to protecting yourself from these attacks. Here are some tips:
+                </p>
+                <ul>
+                    <li>Always be cautious of links and QR codes sent from unknown sources.</li>
+                    <li>Use trusted cybersecurity tools like antivirus and anti-phishing software to detect malicious websites.</li>
+                    <li>Regularly update your devices to ensure vulnerabilities are patched.</li>
+                    <li>If unsure about a link or QR code, use a URL checker or a trusted QR scanner before interacting.</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Phishing Awareness</h1>
+                <p>Login pages are easy to replicate. Click here to view a fake <a href="google.html">Google Login Page.</a></p>
+                <p>Hackers can create login pages meant to steal your credentials. Always be cautious when entering your information on unfamiliar sites.</p>
+            </div>
+        </section>
+
+
+        </main>
+
+        <footer>
+            <p>Stay safe online and protect your information. Awareness is your first line of defense!</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in - Google Accounts</title>
+    <link rel="stylesheet" href="google.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo">
+        <h1>Sign in</h1>
+        <p>with your Google Account</p>
+    </div>
+
+    <div class="form-container">
+        <div class="input-container">
+            <input type="email" id="email" name="email" placeholder="Email or phone" required>
+        </div>
+        <div class="helper-text">Forgot email?</div>
+
+        <div class="text-container">
+            <p>Not your computer? Use Guest mode to sign in privately.</p>
+            <a href="#">Learn more</a>
+        </div>
+
+        <div class="actions">
+            <a href="#" class="create-account">Create account</a>
+            <button class="next-button" onclick="showWarning()">Next</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    function showWarning() {
+        alert("Warning: You are entering personal information on an untrusted page. Be cautious when providing sensitive data.");
+    }
+</script>
+
+</body>
+</html>
